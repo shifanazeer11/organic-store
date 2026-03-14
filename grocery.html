@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery - Organic Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="./about.html" target="_blank">About</a></li>
+                <li><a href="./everything.html" target="_blank">Everythings</a></li>
+                <li><a href="./grocery.html" target="_blank">Groceries</a></li>
+                <li><a href="./juices.html" target="_blank">Juices</a></li>
+                <li><a href="./contact.html" target="_blank">contact</a></li>
+            </ul>
+        </div>
+
+        <div class="icons">
+            <p>£0.00</p>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+            <i class="fa-regular fa-user"></i>
+            <div class="counter">0</div>
+        </div>
+    </nav>
+
+    <div class="shop-content-wrapper">
+        
+        <aside class="sidebar">
+            <div class="widget">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">Filter by Price</h3>
+                <input type="range" min="10" max="100" value="50" class="price-range">
+                <div class="price-filter-info">
+                    <span>Price: £10 — £40</span>
+                    <button class="btn-filter">FILTER</button>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">Categories</h3>
+                <ul class="cat-list">
+                    <li><a href="#">Groceries</a> <span>(10)</span></li>
+                    <li><a href="#">Juice</a> <span>(9)</span></li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <ul class="mini-product-list">
+                    <li>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/coffee-asorted-400x400.jpg" alt="">
+                        <div><p>Assorted Coffee</p><span>£25.00</span></div>
+                    </li>
+                    <li>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/sanitizer-400x400.jpg" alt="">
+                        <div><p>Hand Sanitizer</p><span>£15.00</span></div>
+                    </li>
+                    <li>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/red-chillies-400x400.jpg" alt="">
+                        <div><p>Red Chillies</p><span>£19.00</span></div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="shop-main">
+            <nav class="breadcrumb">Home | Shop</nav>
+            <h1 class="page-title">Groceries</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim, velit et luctus interdum, est quam scelerisque tellus, eget luctus mi diam vitae erat. Praesent porttitor lacus vitae dictum posuere. </p>
+            <div class="products-grid">
+                <div class="product-item">
+                    <div class="img-box"><span class="sale-tag">Sale!</span><img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/coffee-asorted-400x400.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Assorted Coffee</h4><div class="rating">★★★★★</div><p class="price"><del>£35.00</del> £25.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/sanitizer-400x400.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Hand Sanitizer</h4><div class="rating">★★★★★</div><p class="price">£15.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/red-chillies-400x400.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Red Chillies</h4><div class="rating">★★★★★</div><p class="price">£19.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/edible-oil-400x400.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Natural Oil</h4><div class="rating">★★★★★</div><p class="price">£25.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="./images/eggs.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Juices</span><h4>Orange Juice</h4><div class="rating">★★★★★</div><p class="price">£18.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="./images/face-wash.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Face wash</h4><div class="rating">★★★★★</div><p class="price">£12.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/diabetic-cookies-400x400.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Diabetic Cookies</h4><div class="rating">★★★★★</div><p class="price">£25.00</p></div>
+                </div>
+                <div class="product-item">
+                    <div class="img-box"><img src="./images/orage-juice.jpg" alt=""></div>
+                    <div class="info-box"><span class="category">Groceries</span><h4>Orange Juice</h4><div class="rating">★★★★★</div><p class="price">£15.00</p></div>
+                </div>
+            </div>
+        </main>
+    </div>
+  <footer class="footer">
+            <div class="f1">
+                <img src="./images/logo.svg" class="img1" alt="">
+                <p class="font">Maecenas mi justo, interdum at consectetur vel, tristique et arcu.</p>
+            </div>
+            <div class="f1">
+                <h1 class="heading">Website</h1>
+                <ul class="link1">
+                    <li> <a href="">about</a></li>
+                    <li> <a href="">Everything</a></li>
+                    <li> <a href="">juices</a></li>
+                    <li> <a href="">contact</a></li>
+                </ul>
+            </div>
+            <div class="f1">
+                <h1 class="heading">Quick Links</h1>
+                 <ul class="link1">
+                    <li> <a href="">about</a></li>
+                    <li> <a href="">Everything</a></li>
+                    <li> <a href="">juices</a></li>
+                    <li> <a href="">contact</a></li>
+                </ul>
+            </div>
+            <div class="f1">
+                <h1 class="heading">site Links</h1>
+                 <ul class="link1">
+                    <li> <a href="">about</a></li>
+                    <li> <a href="">Everything</a></li>
+                    <li> <a href="">juices</a></li>
+                    <li> <a href="">contact</a></li>
+                </ul>
+            </div>
+            
+        </footer>
+        <hr  color="gray">
+        <div class="copyright">Copyright © 2026 | Organic Store</div>
+
+</body>
+</html>
